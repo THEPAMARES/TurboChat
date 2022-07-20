@@ -1,0 +1,7 @@
+{% for message in app.flashes('success') %}
+
+    <div class="alert-success" role="alert" data-turbo-cache="false">
+        {{ message }} 
+    </div>
+
+{% endfor %}
